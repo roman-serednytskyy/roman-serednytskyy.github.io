@@ -9,6 +9,9 @@ p{
   font-size:18px;
   line-height:10px;
 }
+ul{
+  margin-top: 30px;
+}
 li{
   font-family:'Helvetica Neue Pro';
   font-size:18px;
@@ -44,5 +47,9 @@ div.tel{
   margin-bottom: 40px;
 }
 div.fb{
+  margin-top: 40px;
   margin-bottom: 20px;
+}
+div.feedback{
+  margin-top: 30px;
 }
