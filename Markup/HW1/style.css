@@ -1,37 +1,37 @@
-h1{
-  font-family:'Helvetica Neue Pro';
-  font-size:22px;
+h1 {
+  font-family: 'Helvetica Neue Pro';
+  font-size: 22px;
   text-style: bold;
 }
-p{
-  font-family:'Helvetica Neue Pro';
+p {
+  font-family: 'Helvetica Neue Pro';
   margin-left: 65px;
-  font-size:18px;
-  line-height:10px;
+  font-size: 18px;
+  line-height: 10px;
 }
-ul{
+ul {
   margin-top: 30px;
 }
-li{
-  font-family:'Helvetica Neue Pro';
-  font-size:18px;
+li {
+  font-family: 'Helvetica Neue Pro';
+  font-size: 18px;
   margin-left: 40px;
-  line-height:25px;
+  line-height: 25px;
 }
-a{
-  font-size:18px;
+a {
+  font-size: 18px;
   margin-left: 65px;
 }
 hr {
-   border: none;
-   background-color: gray;
-   height: 1px;
-   width:80%;
-   align: center;
-  }
-div.page{
-  width:514px;
-  height:758px;
+  border: none;
+  background-color: gray;
+  height: 1px;
+  width: 80%;
+  align: center;
+}
+div.page {
+  width: 514px;
+  height: 758px;
   border: 1px double lightgray;
 }
 div.fio {
@@ -39,17 +39,17 @@ div.fio {
   margin-bottom: 10px;
   text-align: center;
 }
-div.photo{
+div.photo {
   text-align: center;
-  }
-div.tel{
+}
+div.tel {
   margin-top: 30px;
   margin-bottom: 40px;
 }
-div.fb{
+div.fb {
   margin-top: 40px;
   margin-bottom: 20px;
 }
-div.feedback{
+div.feedback {
   margin-top: 30px;
 }
