@@ -1,0 +1,47 @@
+h1{
+  font-family:'Helvetica Neue Pro';
+  font-size:22px;
+  text-style: bold;
+}
+p{
+  font-family:'Helvetica Neue Pro';
+  margin-left: 65px;
+  font-size:18px;
+  line-height:10px;
+}
+li{
+  font-family:'Helvetica Neue Pro';
+  margin-left: 40px;
+  line-height:25px;
+}
+a{
+  font-size:18px;
+  margin-left: 65px;
+}
+hr {
+   border: none;
+   background-color: gray;
+   height: 1px;
+   width:80%;
+   align: center;
+  }
+div.page{
+  width:514px;
+  height:758px;
+  border: 1px double lightgray;
+}
+div.fio {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+div.photo{
+  text-align: center;
+  }
+div.tel{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+div.fb{
+  margin-bottom: 20px;
+}
