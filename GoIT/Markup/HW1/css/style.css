@@ -1,0 +1,49 @@
+body {
+  background-color: #eee;
+  font-family: 'Helvetica Neue Pro';
+  font-size: 18px;
+}
+h1 {
+  font-size: 21px;
+  margin-top: 5px;
+  text-align: center;
+}
+img {
+  height: 140px;
+  width: 140px;
+  border-radius: 10px 10px 10px 10px;
+}
+p {
+  margin: 30px 0 20px 10px;
+  line-height: 0;
+}
+ul {
+  margin-top: 35px;
+  line-height: 25px;
+}
+.page {
+  width: 420px;
+  height: 650px;
+  background-color: #fff;
+  border: 1px double lightgray;
+  margin: 10px auto 45px;
+  padding: 50px;
+  box-shadow: 0px 0px 10px 1px rgba(140, 140, 140, 0.5);
+}
+.hade {
+  margin-bottom: 25px;
+}
+.photo {
+  text-align: center;
+  font-size: 0;
+}
+.line {
+  border-top: 1px solid grey;
+  margin: 0 auto 20px;
+}
+.fb {
+  margin-top: 50px;
+}
+.linedown {
+  border-top: 4px solid #000;
+}
