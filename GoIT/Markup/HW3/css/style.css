@@ -18,6 +18,11 @@
   line-height: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#5D5D5D), to(#464545));
 }
+.currentm {
+  background: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#2e2e2e));
+  color: #fff;
+  border: 1px solid #838383;
+}
 .mainmenu li {
   float: left;
   display: inline;
@@ -40,6 +45,10 @@
   width: 240px;
   margin: 0 45px 40px 45px;
   padding-left: 0;
+}
+.leftmenu .currentl {
+  color: #2c2c2c;
+  padding: 0 40px;
 }
 .leftmenu li {
   border: 1px solid lightgray;
@@ -92,6 +101,9 @@
 .footermenu a:hover {
   text-decoration: underline;
 }
+.footermenu .currentf {
+  text-decoration: underline;
+}
 .footermenu span {
-  margin-left: 270px;
+  margin-left: 265px;
 }
