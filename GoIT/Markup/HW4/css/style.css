@@ -1,0 +1,94 @@
+.google_head{
+  position: fixed;
+  top:0;
+}
+.page {
+  position: absolute;
+  left: 134px;
+  top:0;
+  width: 1000px;
+  background-color: #fff;
+  border: 1px double lightgray;
+  -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
+-moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
+box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
+  font-family: 'Helvetica Neue Pro';
+  font-size: 14px;
+}
+.line1{
+  border: 1px solid #128aa7;
+  margin-top: 212px;
+}
+.line2{
+  border: 1px solid #128aa7;
+}
+.logo{
+  position: absolute;
+  left: 28px;
+  top: 67px;
+  }
+.t {
+  font-family: 'Tahoma';
+  font-size: 12px;
+  margin-top: -70px;
+  margin-left: 70px;
+  color: #128aa7;
+}
+.contacts {
+  font-family: 'Tahoma';
+  font-size: 12px;
+  color: #128aa7;
+  margin-left: 740px;
+  margin-top: -125px;
+
+}
+.photo{
+  margin-top: 5px;
+}
+.contries ul{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+.contries li{
+ display: inline;
+ width: 50px;
+}
+.contries span{
+ width: 50px;
+}
+
+.contries a{
+  font-family: 'Tahoma';
+  font-size: 10px;
+  color: #128aa7;
+ width: 50px;
+}
+menu{
+  float:left;
+   width:100%;
+   list-style:none;
+  height: 40px;
+  margin: 0 45px 40px 45px;
+  display: block;
+  text-decoration: none;
+  line-height: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5D5D5D), to(#464545));
+}
+.menu li {
+  float:left;
+    margin-right:10px;
+    position:relative;
+    display:block;
+}
+.menu li a {
+  display:block;
+  padding:5px;
+  color: red;
+  line-height: 40px;
+  padding: 0 30px;
+}
+.menu li a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#2e2e2e));
+  color: #fff;
+  border: 1px solid #838383;
+}
