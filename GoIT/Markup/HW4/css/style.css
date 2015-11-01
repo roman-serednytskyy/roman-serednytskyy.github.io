@@ -10,10 +10,42 @@
   background-color: #fff;
   border: 1px double lightgray;
   -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
--moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
+  -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
+  box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
   font-family: 'Helvetica Neue Pro';
   font-size: 14px;
+
+}
+.fon {
+width: 1000px;
+overflow: hidden; /* чтобы лишее обрезалось */
+}
+
+.leftColumn {
+width: 208px;
+float: left;
+background: #edeef0;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+  color: 424c43;
+}
+
+.centerColumn {
+
+width: 580px;
+float: left;
+background: #fff;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+}
+
+.rightColumn {
+  color: #424c43;
+width: 208px;
+float: left;
+background: #edeef0;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
 }
 .line1{
   border: 1px solid #128aa7;
@@ -25,7 +57,7 @@ box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
 .logo{
   position: absolute;
   left: 28px;
-  top: 67px;
+  top: 60px;
   }
 .t {
   font-family: 'Tahoma';
@@ -61,33 +93,33 @@ box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
   font-family: 'Tahoma';
   font-size: 10px;
   color: #128aa7;
- width: 50px;
-}
-menu{
-  float:left;
-   width:100%;
-   list-style:none;
-  height: 40px;
-  margin: 0 45px 40px 45px;
-  display: block;
-  text-decoration: none;
-  line-height: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#5D5D5D), to(#464545));
 }
 .menu li {
+
+  width: 142.8px;
   float:left;
-    margin-right:10px;
     position:relative;
     display:block;
+    background: -webkit-gradient(linear, left top, left bottom, from(#373737), to(#303030));
 }
 .menu li a {
+    font-size: 14px;
+text-decoration: none;
   display:block;
   padding:5px;
-  color: red;
-  line-height: 40px;
+  color: #fff;
+  line-height: 28px;
   padding: 0 30px;
+  text-align: center;
 }
 .menu li a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#2e2e2e));
+  color: #fff;
+}
+.menu ul li ul li{
+  width: 150px;
+  }
+.currentm {
   background: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#2e2e2e));
   color: #fff;
   border: 1px solid #838383;
