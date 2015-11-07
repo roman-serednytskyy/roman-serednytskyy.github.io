@@ -1,6 +1,13 @@
 .google_head{
   position: fixed;
-  top:0;
+  background:url(..img/google_head.jpg);
+  z-index: 1;
+}
+body{
+  background: url(../img/background.jpg);
+  font-family: Tahoma, Arial , sans-serif;
+  font-size: 12px;
+  color: #128aa7;
 }
 .page {
   position: absolute;
@@ -8,44 +15,11 @@
   top:0;
   width: 1000px;
   background-color: #fff;
-  border: 1px double lightgray;
   -webkit-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
   -moz-box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
   box-shadow: 0px 4px 5px 0px rgba(0,0,0,1);
-  font-family: 'Helvetica Neue Pro';
   font-size: 14px;
-
-}
-.fon {
-width: 1000px;
-overflow: hidden; /* чтобы лишее обрезалось */
-}
-
-.leftColumn {
-width: 208px;
-float: left;
-background: #edeef0;
-padding-bottom: 20000px;
-margin-bottom: -20000px;
-  color: 424c43;
-}
-
-.centerColumn {
-
-width: 580px;
-float: left;
-background: #fff;
-padding-bottom: 20000px;
-margin-bottom: -20000px;
-}
-
-.rightColumn {
-  color: #424c43;
-width: 208px;
-float: left;
-background: #edeef0;
-padding-bottom: 20000px;
-margin-bottom: -20000px;
+  margin-bottom: 30px;
 }
 .line1{
   border: 1px solid #128aa7;
@@ -53,6 +27,7 @@ margin-bottom: -20000px;
 }
 .line2{
   border: 1px solid #128aa7;
+  margin-bottom: 1px;
 }
 .logo{
   position: absolute;
@@ -60,67 +35,179 @@ margin-bottom: -20000px;
   top: 60px;
   }
 .t {
-  font-family: 'Tahoma';
-  font-size: 12px;
   margin-top: -70px;
   margin-left: 70px;
-  color: #128aa7;
 }
 .contacts {
-  font-family: 'Tahoma';
-  font-size: 12px;
-  color: #128aa7;
   margin-left: 740px;
   margin-top: -125px;
-
 }
 .photo{
   margin-top: 5px;
+  margin-bottom: 1px;
 }
 .contries ul{
-    margin-top: 50px;
-    margin-left: 400px;
+  float: right;
+  margin-top: 46px;
+  margin-right: 10px;
 }
 .contries li{
- display: inline;
- width: 50px;
-}
-.contries span{
- width: 50px;
-}
-
-.contries a{
-  font-family: 'Tahoma';
-  font-size: 10px;
-  color: #128aa7;
-}
-.menu li {
-
-  width: 142.8px;
-  float:left;
-    position:relative;
-    display:block;
-    background: -webkit-gradient(linear, left top, left bottom, from(#373737), to(#303030));
-}
-.menu li a {
-    font-size: 14px;
-text-decoration: none;
-  display:block;
-  padding:5px;
-  color: #fff;
-  line-height: 28px;
-  padding: 0 30px;
+  float: left;
   text-align: center;
+  width: 58px;
+ }
+.contries a{
+  display: block;
+  color: #128aa7;
+  font-size: 10px;
 }
-.menu li a:hover {
-  background: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#2e2e2e));
-  color: #fff;
+
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  width: 100%;
 }
-.menu ul li ul li{
-  width: 150px;
+.main_menu {
+  margin-top: -1px;
+	width: 1000px;
+	border-top: 1px solid white;
+  border-bottom: 1px solid #000;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#373737+0,303030+100 */
+  background: rgb(55,55,55); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(55,55,55,1)), color-stop(100%,rgba(48,48,48,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(55,55,55,1) 0%,rgba(48,48,48,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(55,55,55,1) 0%,rgba(48,48,48,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(55,55,55,1) 0%,rgba(48,48,48,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(55,55,55,1) 0%,rgba(48,48,48,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#373737', endColorstr='#303030',GradientType=0 ); /* IE6-9 */
+  position: absolute;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+}
+.main_menu li {
+  position: relative;
+  float: left;
   }
+.main_menu li a{
+  position: relative;
+  padding: 0 33px;
+  display: block;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  }
+  .main_menu ul{
+  position: absolute;
+  left: 23px;
+  visibility: hidden;
+  top: 0;
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.75);
+  }
+.main_menu ul+a:after{
+	content: '\25be';
+  display: block;
+  position: absolute;
+  top: 50%;
+  margin-top: -14px;
+  right: 10px;
+  height: 6px;
+  width: 5px;
+}
+.main_menu a {
+  padding: 0 33px;
+  display: block;
+  line-height: 28px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+}
+
+.main_menu li:hover ul {
+  visibility: visible;
+  opacity: 1;
+  top: 100%;
+}
+.main_menu ul li{
+  background: #303030;
+}
+.main_menu ul a{
+  padding: 0 21px 0 10px;
+}
 .currentm {
   background: -webkit-gradient(linear, left top, left bottom, from(#494949), to(#2e2e2e));
   color: #fff;
   border: 1px solid #838383;
+}
+
+.leftColumn{
+width: 200px;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+float: left;
+background: lightgray;
+border-right: 1px solid #c7cacf;
+color: #424c43;
+line-height: 20px;
+background-color: #edeef0;
+}
+.leftColumn h2{
+text-align: center;
+	font: 600 18px Tahoma;
+	line-height: 35px;
+}
+.footer{
+  display: block;
+	position: relative;
+  bottom: -1000px;
+}
+.footer p{
+	text-align: center;
+	color: #fff;
+	font-size: 12px;
+	line-height: 30px;
+}
+p{
+	text-align: center;
+}
+span{
+  display: block;
+}
+.centerColumn{
+	background-color: white;
+	float: left;
+	padding-bottom: 20000px;
+  margin-bottom: -20000px;
+  width: 598px;
+}
+.rightColumn{
+width: 200px;
+padding-bottom: 20000px;
+margin-bottom: -20000px;
+float: right;
+background: lightgray;
+border-left: 1px solid #c7cacf;
+color: #424c43;
+line-height: 20px;
+background-color: #edeef0;
+}
+.rightColumn h2{
+text-align: center;
+	font: 600 18px Tahoma;
+	line-height: 35px;
+}
+
+.fon{
+	width: 1000px;
+	height: 511px;
+	background-color: white;
+  float: left;
+  margin-top: 28px;
+  overflow: hidden;
 }
