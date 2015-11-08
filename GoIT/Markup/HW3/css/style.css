@@ -1,3 +1,6 @@
+body{
+  background-color: #f9f9f9;
+}
 .page {
   width: 1060px;
   background-color: #fff;
@@ -5,11 +8,15 @@
   margin: auto;
   font-family: 'Helvetica Neue Pro';
   font-size: 14px;
+  -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+  -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
+  box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.3);
 }
 .logo {
   margin: 50px 0 40px 50px;
 }
 .mainmenu {
+
   width: 966px;
   height: 40px;
   margin: 0 45px 40px 45px;
@@ -31,7 +38,6 @@
   /* W3C Markup */
   background-image: linear-gradient(to bottom, #444343 0%, #5E5E5E 100%);
 }
-
 .mainmenu li {
   float: left;
   display:inline;
@@ -83,7 +89,7 @@
   background-image: -webkit-linear-gradient(top, #2E2E2E 0%, #4a4a4a 100%);
   /* W3C Markup */
   background-image: linear-gradient(to bottom, #2E2E2E 0%, #4a4a4a 100%);
-  }
+}
 .leftmenu {
   border: 1px solid #c8c8c8;
   float: left;
