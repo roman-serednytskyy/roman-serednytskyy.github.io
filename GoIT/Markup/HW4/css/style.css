@@ -151,7 +151,6 @@ body{
   border: 1px solid #838383;
 }
 .fon{
-	width: 1000px;
   height: 100%;
 	background-color: white;
   float: left;
@@ -160,7 +159,7 @@ body{
   z-index: -1;
 }
 .leftColumn{
-  width: 200px;
+  width: 210px;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
   float: left;
@@ -180,10 +179,14 @@ body{
 	float: left;
 	padding-bottom: 20000px;
   margin-bottom: -20000px;
-  width: 598px;
+  width: 576px;
+}
+.centerColumn p{
+  margin: 20px;
+  text-align: justify;
 }
 .rightColumn{
-  width: 200px;
+  width: 210px;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
   float: right;
