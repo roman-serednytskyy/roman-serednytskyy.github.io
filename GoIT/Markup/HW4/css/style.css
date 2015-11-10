@@ -81,7 +81,6 @@ body{
 	width: 1000px;
 	border-top: 1px solid white;
   border-bottom: 1px solid #000;
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#373737+0,303030+100 */
   background: rgb(55,55,55); /* Old browsers */
   background: -moz-linear-gradient(top,  rgba(55,55,55,1) 0%, rgba(48,48,48,1) 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(55,55,55,1)), color-stop(100%,rgba(48,48,48,1))); /* Chrome,Safari4+ */
