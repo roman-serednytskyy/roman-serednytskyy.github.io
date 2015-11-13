@@ -1,0 +1,259 @@
+body{
+  font-family: Tahoma, Arial , sans-serif;
+  font-size: 12px;
+  background: url(../img/background.jpg);
+  background-size: 100%;
+  color: #fff;
+}
+.wrapper{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: auto;
+}
+.clearfix:after{
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+  width: 100%;
+}
+.navigation{
+  height: 36px;
+  background-color: #08579b;
+}
+.container{
+  float: right;
+  font-size:0;
+  margin-right: 390px;
+}
+.menu li{
+  display: inline-block;
+  line-height: 36px;
+}
+.menu li a{
+  display: block;
+  color: #60b5ed;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 0 12px;
+}
+.menu li a:hover{
+  color: #fff;
+  background: #4eabda;
+}
+.menu li.active a{
+  color: #fff;
+  background: #4eabda;
+}
+.line{
+  content: "";
+  display: inline-block;
+  height: 31px;
+  float: right;
+  border-right: 1px solid #56a2dc;
+  position: absolute;
+  top: 2px;
+  right: 380px;
+}
+.ofert-sign-up{
+  font-size:0;
+  position: absolute;
+  top: 0;
+  right: 20px;
+  color: #fff;
+  display: inline-block;
+  line-height: 35px;
+}
+.ofert{
+  display: inline-block;
+  padding: 0 13px;
+  line-height: 35px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+}
+.ofert:hover{
+  border: 1px solid #4299d2;
+  border-top: none;
+  background: -webkit-linear-gradient(top, rgba(81,177,220,.7) 20%, rgba(46,122,196,.7));
+  background: -moz-linear-gradient(top, rgba(81,177,220,.7) 20%, rgba(46,122,196,.7));
+  background: -o-linear-gradient(top, rgba(81,177,220,.7) 20%, rgba(46,122,196,.7));
+  background: -ms-linear-gradient(top, rgba(81,177,0,.7) 20%, rgba(46,122,196,.7));
+  background: linear-gradient(to bottom, rgba(81,177,220,.7) 20%, rgba(46,122,196,.7));
+}
+.ofert::before{
+  content: "";
+  background: url("../img/flag.png") no-repeat;
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 23px;
+  right: 314px;
+  bottom: 11px;
+}
+.sign-up{
+  display: inline-block;
+  padding: 0 13px;
+  line-height: 35px;
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  border: 1px solid #4299d2;
+  border-top: none;
+  background: -webkit-linear-gradient(top, rgba(81,177,220,.7) 20%, rgba(46,122,196,.7));
+  background: -moz-linear-gradient(top, rgba(81,177,220,.7) 20%, rgba(46,122,196,.7));
+  background: -o-linear-gradient(top, rgba(81,177,220,.7) 20%, rgba(46,122,196,.7));
+  background: -ms-linear-gradient(top, rgba(81,177,0,.7) 20%, rgba(46,122,196,.7));
+  background: linear-gradient(to bottom, rgba(81,177,220,.7) 20%, rgba(46,122,196,.7));
+}
+.sign-up a{
+  color: #fff;
+}
+.forma-top{
+  position: absolute;
+  top: -420px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height: 60px;
+  width: 560px;
+  background-color: rgba(0, 0, 0, 0.63);
+  color: rgba(0, 0, 0, 0.63);
+}
+.forma-top span{
+  color:#fff;
+  font-size: 24px;
+  position: absolute;
+  top:18px;
+  right: 220px;
+}
+.forma-input{
+  position: absolute;
+  top: 245px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  height:580px;
+  width: 560px;
+  background-color: rgba(0, 0, 0, 0.63);
+  color: rgba(0, 0, 0, 0.63);
+}
+.fb{
+  display: block;
+  position: absolute;
+  top: 35px;
+  right: 142px;
+  height: 35px;
+  width: 276px;
+  background: url(../img/fb.png)no-repeat;
+}
+.ou{
+  display: block;
+  position: absolute;
+  top: 100px;
+  right: 270px;
+  color: #999;
+  font-size: 14px;
+}
+.ou::before{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 123px;
+  top:8px;
+  right: 25px;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #000;
+ }
+.ou::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 123px;
+  top: 8px;
+  left: 25px;
+  width: 120px;
+  border-top: 1px solid #666;
+  border-bottom: 1px solid #000;
+}
+input{
+  display: block;
+  margin: 8px auto;
+}
+.fieldset{
+  display: block;
+  position: absolute;
+  top:140px;
+  right: 142px;
+  left: 142px;
+}
+.forma-input input[type="text"],
+[type="password"]{
+  color: #ccc;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  background: #100f0f;
+  border: none;
+  border-bottom: 1px solid #484948;
+  width: 275px;
+  height: 35px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="text"]#active{
+  background: #1b5288;
+  border-bottom: 1px solid #689bcc;
+  -webkit-box-shadow: 0 0 9px rgba(47,123,197,.77), 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+  -moz-box-shadow: 0 0 9px rgba(47,123,197,.77), 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+  box-shadow: 0 0 9px rgba(47,123,197,.77), 0 1px #4b4b4b, inset 0 2px 5px rgba(29,26,22,.2), inset 0 0 2px rgba(0,0,0,.1);
+}
+input[type="checkbox"]{
+  display:inline;
+  left: 68px;
+  position: relative;
+}
+.forma-input label{
+  color: #ccc;
+  font-size: 14px;
+  padding-left: 4px;
+}
+input[type="checkbox"]{
+  position: relative;
+  left: 0;
+  top:2px;
+}
+.forma-input #send{
+  margin-top: 15px;
+  width: 155px;
+  height: 37px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border: 1px solid  #6bb8e7;
+  background: rgba(81,176,220,1);
+  background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+  background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+  background-image: -o-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+  background-image: -ms-linear-gradient(bottom, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+  background-image: linear-gradient(to top, rgba(0,0,0,.3) 20%, rgba(255,255,255,.3));
+  cursor: pointer;
+  font-size: 14px;
+  color: #fff;
+}
+.confirm{
+  display: block;
+  position: absolute;
+  top: 540px;
+  right: 125px;
+  left: 125px;
+  font-size: 11px;
+  color: #ccc;
+}
+.confirm p{
+  text-align: center;
+}
