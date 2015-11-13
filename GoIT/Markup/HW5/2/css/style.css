@@ -11,12 +11,7 @@
 table{
   width: 500px;
   height: 546px;
-  position: absolute;
-  top: 10%;
-  right: 10%;
-  bottom: 10%;
-  left: 10%;
-  margin: auto;
+  margin: 10% auto;
 }
 td{
 	width: 70px;
