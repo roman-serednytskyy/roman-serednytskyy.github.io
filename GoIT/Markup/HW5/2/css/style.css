@@ -5,15 +5,17 @@
   top: 0;
   left: 0;
   overflow: auto;
+  background: #fff;
+  color: #fff;
 }
 table{
   width: 500px;
   height: 546px;
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  top: 10%;
+  right: 10%;
+  bottom: 10%;
+  left: 10%;
   margin: auto;
 }
 td{
@@ -25,15 +27,19 @@ tr{
 }
 .yellow{
   background: #ffea62;
+  color: #ffea62;
 }
 .gray{
   background: #302e2f;
+  color: #302e2f;
 }
 .red{
     background: #fe5527;
+    color: #fe5527;
 }
 .blue{
   background: #0f4e8a;
+  color: #0f4e8a;
 }
 .border-off-top{
   border-top: none;
