@@ -201,13 +201,6 @@ body{
 	font: 600 18px Tahoma;
 	line-height: 35px;
 }
-.fon{
-	width: 1000px;
-	background-color: #fff;
-  float: left;
-  margin-top: 28px;
-  overflow: hidden;
-}
 .footer{
   width: 1000px;
   height: 30px;
