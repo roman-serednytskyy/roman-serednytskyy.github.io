@@ -1,9 +1,10 @@
 body{
+  height: 100%;
   background-color: #f9f9f9;
 }
 .page {
   width: 1060px;
-  height: 100%;
+  min-height: 100%;
   background-color: #fff;
   border: 1px double lightgray;
   margin: auto;
