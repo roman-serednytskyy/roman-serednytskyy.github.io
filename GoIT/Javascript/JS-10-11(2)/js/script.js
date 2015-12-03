@@ -9,14 +9,13 @@ function enterName(numberOfNames){
 }
 
 var arrNames = enterName(5)
-console.log('array names = ', arrNames);
+  console.log('array names = ', arrNames);
 
 var userName = prompt('Enter user name!');
 userName = userName.toUpperCase();
-console.log('user name = ', userName);
+  console.log('user name = ', userName);
 
 //Alternativ #1
-
 // if (userName == arrNames[0]){
 //   alert (arrNames[0] + ' вы успешно вошли!')
 // } else if (userName == arrNames[1]){
@@ -33,11 +32,13 @@ console.log('user name = ', userName);
 
 // Alternativ #2
   for (var i = 0; i < arrNames.length; i++){
+
     if (userName  == arrNames[i]){
       var user = arrNames[i];
-    alert(user + ' вы успешно вошли!');
+      alert(user + ' вы успешно вошли!');
   }
 }
+
     if (user  == undefined){
-     alert('Ошибка!');
+      alert('Ошибка!');
   }
